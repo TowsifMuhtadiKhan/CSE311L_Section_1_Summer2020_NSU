@@ -1,3 +1,5 @@
-SELECT last_name,department_id, Hire_Date
-FROM employees
-WHERE Department_Id BETWEEN 20  AND 50
+SELECT Last_Name, Department_Id 
+FROM employees 
+WHERE Department_Id 
+BETWEEN 20 AND 50 
+ORDER BY First_Name DESC;
