@@ -1,0 +1,1 @@
+SELECT Last_Name, Department_Id, (7*Salary) AS 'weekly salary' FROM employees;
