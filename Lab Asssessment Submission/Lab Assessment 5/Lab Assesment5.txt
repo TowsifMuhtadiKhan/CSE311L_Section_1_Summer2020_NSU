@@ -1,0 +1,9 @@
+SELECT Round (max(salary)) "Maximum",(min(salary)) "Min", Round (sum(salary)) "sum", Round(avg(salary)) "average"
+from employees;
+
+4) SELECT manager_id, MIN(salary)
+FROM employees
+WHERE manager_id IS NOT NULL
+GROUP BY manager_id
+ORDER BY MIN(salary) DESC;
+
