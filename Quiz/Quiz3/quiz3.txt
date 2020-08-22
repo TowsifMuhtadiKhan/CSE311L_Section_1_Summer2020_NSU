@@ -1,0 +1,2 @@
+SELECT CONCAT(CONCAT(CONCAT(First_Name,''),Last_Name,'is '),Job_Id) AS'employee and Title' FROM `employees`;
+SELECT Last_Name,Salary,Commission_pct FROM `employees` WHERE Commission_pct IS NOT NULL ORDER BY Salary DESC, Commission_pct DESC;
